@@ -1,6 +1,4 @@
-# README!
-
-## How GCC compiles a C/C++ program into executable:
+# How GCC compiles a C/C++ program into executable:
 * `preprocessing` Step 1, Source Code (.c, .cpp, .h), Preprocessor (cpp)
 * `compilation` Step 2, Include Header, Expand Macro (.i, .ii) Compiler (gcc, g++)
 * `assemble` Step 3, Assembly Code (.s) Assembler (as) to Machine Code (.o, .obj)
