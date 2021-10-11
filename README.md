@@ -1,4 +1,4 @@
-# How GCC compiles a C/C++ program into executable:
+## How GCC compiles a C/C++ program into executable:
 * `preprocessing` Step 1, Source Code (.c, .cpp, .h), Preprocessor (cpp)
 * `compilation` Step 2, Include Header, Expand Macro (.i, .ii) Compiler (gcc, g++)
 * `assemble` Step 3, Assembly Code (.s) Assembler (as) to Machine Code (.o, .obj)
@@ -275,7 +275,7 @@ Disassembly of section .text:
   36:   c3                      retq 
 ```
 
-## Referensi :bookmark_tabs:
+## References
 * [GCC and Make: Compiling, Linking and Building C/C++ Applications - www3.ntu.edu.sg](https://www3.ntu.edu.sg/home/ehchua/programming/cpp/gcc_make.html)
 * [Solve the mystery of the three lives and three generations of HelloWorld through the ELF file of Linux (from now on, your youth will not be lost) - programmersought](https://www.programmersought.com/article/79215069083/)
 * [Preprocessed .i file - pvs-studio](https://pvs-studio.com/en/t/0076/)
